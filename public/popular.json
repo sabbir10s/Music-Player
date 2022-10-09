@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "img": "",
-        "title": "Wildest Dream",
+        "img": "https://upload.wikimedia.org/wikipedia/en/b/b9/Myworld2.jpg",
+        "title": "My World 2.0",
         "playing": "657,505,200",
         "time": "4:00",
         "album": "1998"
     },
     {
         "id": 2,
-        "img": "",
+        "img": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148",
         "title": "Blank Space",
         "playing": "7,55,620",
         "time": "4:23",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "img": "",
+        "img": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
         "title": "Exile (feat.Bon lver)",
         "playing": "542,755,800",
         "time": "4:50",
@@ -25,8 +25,8 @@
     },
     {
         "id": 4,
-        "img": "",
-        "title": "Carding",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Justin_Bieber_-_Justice.png/220px-Justin_Bieber_-_Justice.png",
+        "title": "Triple Chucks",
         "playing": "602,320,450",
         "time": "3:60",
         "album": "1998"

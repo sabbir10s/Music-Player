@@ -15,13 +15,13 @@ const HomePage = () => {
                         <Popular />
                         <Player />
                     </div>
-                    <div className='col-span-1 border-l p-3'>
+                    <div className='col-span-1 border-l pt-3 px-5'>
                         <RightSidebar />
                     </div>
                 </div>
                 <div className="drawer-side">
                     <label for="my-drawer-2" className="drawer-overlay"></label>
-                    <ul className="menu p-4 overflow-y-auto w-72 bg-base-100 shadow-xl text-base-content">
+                    <ul className="menu pt-3 px-5 overflow-y-auto w-72 bg-base-100 shadow-xl text-base-content">
                         <LeftSidebar />
                     </ul>
 
