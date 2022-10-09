@@ -52,7 +52,7 @@ const Popular = () => {
                             songList?.map((song) => <tr key={song.id} className='cursor-pointer border-l-2 border-base-100 hover:bg-base-200/50 hover:border-l-2 hover:border-primary text-base-300/80 hover:text-black'>
                                 <td className='text-left text-sm p-3'>{song.id}</td>
                                 <td className='text-center'><img className='w-[35px]' src={song.img} alt="" /></td>
-                                <td className='text-left text-sm'>{song.title}</td>
+                                <td className='text-left text-sm text-black'>{song.title}</td>
                                 <td className='text-left text-sm'>{song.playing}</td>
                                 <td className='text-left text-sm'>{song.time}</td>
                                 <td className='text-left text-sm'>{song.album}</td>
