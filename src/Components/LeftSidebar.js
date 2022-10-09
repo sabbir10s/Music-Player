@@ -7,7 +7,7 @@ import { MdOutlineLibraryMusic, MdQueueMusic } from 'react-icons/md';
 import { BsCalendar2Week } from 'react-icons/bs';
 import { RiMedal2Line, RiMusic2Line, RiUserHeartLine } from 'react-icons/ri';
 
-const Sidebar = () => {
+const LeftSidebar = () => {
     return (
         <div>
             <div className='flex items-center justify-between'>
@@ -69,4 +69,4 @@ const Sidebar = () => {
     );
 };
 
-export default Sidebar;
+export default LeftSidebar;

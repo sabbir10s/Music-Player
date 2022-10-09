@@ -1,9 +1,9 @@
 import React from 'react';
-
 import './HomePage.css'
 import Player from './Player';
 import Popular from './Popular';
-import Sidebar from './Sidebar';
+import LeftSidebar from './LeftSidebar';
+import RightSidebar from './RightSidebar';
 
 const HomePage = () => {
     return (
@@ -15,14 +15,14 @@ const HomePage = () => {
                         <Popular />
                         <Player />
                     </div>
-                    <div className='col-span-1 border-l'>
-
+                    <div className='col-span-1 border-l p-3'>
+                        <RightSidebar />
                     </div>
                 </div>
                 <div className="drawer-side">
                     <label for="my-drawer-2" className="drawer-overlay"></label>
                     <ul className="menu p-4 overflow-y-auto w-72 bg-base-100 shadow-xl text-base-content">
-                        <Sidebar />
+                        <LeftSidebar />
                     </ul>
 
                 </div>

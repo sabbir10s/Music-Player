@@ -1,34 +1,51 @@
 [
     {
         "id": 1,
-        "img": "",
-        "title": "Wildest Dream",
-        "playing": "657,505,200",
-        "time": "4:00",
-        "album": "1998"
+        "img": "https://i1.sndcdn.com/artworks-000108509818-horept-t500x500.jpg",
+        "title": "Blank Space",
+        "singer": "Taylor Swift",
+        "time": "12min ago"
     },
     {
         "id": 2,
-        "img": "",
-        "title": "Blank Space",
-        "playing": "7,55,620",
-        "time": "4:23",
-        "album": "Folklor"
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/Ed_Sheeran_-_Bad_Habits_2.png/220px-Ed_Sheeran_-_Bad_Habits_2.png",
+        "title": "Bad Habits",
+        "singer": "Ed Sheeran",
+        "time": "35min ago"
     },
     {
         "id": 3,
-        "img": "",
-        "title": "Exile (feat.Bon lver)",
-        "playing": "542,755,800",
-        "time": "4:50",
-        "album": "Folklor"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6zRK8AI_lkPhJ74q6_SWH_aWLazIlQB1GCchYeoe9Xw&s",
+        "title": "MONEY",
+        "singer": "Lisa",
+        "time": "1hr ago"
     },
     {
         "id": 4,
-        "img": "",
-        "title": "Carding",
-        "playing": "602,320,450",
-        "time": "3:60",
-        "album": "1998"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-5sBHKME61C0hdlFy5VICoP6-tuQcRjNnZLC_2hSDA&s",
+        "title": "SunFlower",
+        "singer": "Post Malone",
+        "time": "2hr ago"
+    },
+    {
+        "id": 5,
+        "img": "https://upload.wikimedia.org/wikipedia/en/5/53/ISeeLoveJonasBlue.jpg",
+        "title": "I See Love",
+        "singer": "Jonas Blue",
+        "time": "4hr ago"
+    },
+    {
+        "id": 5,
+        "img": "https://i.pinimg.com/564x/a2/e1/be/a2e1be1a181fe9719faf79012e75b869.jpg",
+        "title": "Side Effects",
+        "singer": "The Chainsmokers",
+        "time": "5hr ago"
+    },
+    {
+        "id": 5,
+        "img": "https://static.qobuz.com/images/covers/1b/uk/yl10aila1uk1b_600.jpg",
+        "title": "Hora Loca",
+        "singer": "Tha Change",
+        "time": "5hr ago"
     }
 ]
