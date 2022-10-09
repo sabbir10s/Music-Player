@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { GoVerified } from 'react-icons/go';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 import person from '../img/person.png'
+import Player from './Player';
 
 const Popular = () => {
     const [songList, setSongList] = useState([])
@@ -17,7 +18,7 @@ const Popular = () => {
                 <div className='flex items-center gap-10'><span><AiOutlineLeft /></span> <span><AiOutlineRight className='text-base-300/70' /></span></div>
                 <input className='border rounded-full py-1 px-3 w-full bg-base-200/50' type="text" name="" id="" />
             </div>
-            <div className='px-5 mt-[60px] '>
+            <div className='px-5 mt-[50px] '>
                 <div className='bgImg rounded-xl grid grid-cols-2'>
                     <div className='flex items-center pl-5'>
                         <div>
@@ -27,7 +28,7 @@ const Popular = () => {
                         </div>
                     </div>
                     <div className='flex justify-center'>
-                        <img className='w-[200px] mt-[-70px]' src={person} alt="" />
+                        <img className='w-[190px] mt-[-60px]' src={person} alt="" />
                     </div>
                 </div>
             </div>
@@ -61,6 +62,7 @@ const Popular = () => {
                     </table>
                 </div>
             </div>
+            <Player />
         </div>
     );
 };

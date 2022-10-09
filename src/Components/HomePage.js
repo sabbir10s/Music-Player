@@ -10,10 +10,9 @@ const HomePage = () => {
         <div className='bg-base-200'>
             <div className="drawer drawer-mobile">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content bg-base-100 border-l grid grid-cols-3 ">
+                <div className="drawer-content bg-base-100 border-l lg:grid grid-cols-3 ">
                     <div className='col-span-2 pt-3 '>
                         <Popular />
-                        <Player />
                     </div>
                     <div className='col-span-1 border-l pt-3 px-5'>
                         <RightSidebar />
