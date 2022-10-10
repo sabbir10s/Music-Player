@@ -5,7 +5,7 @@ import { BsVolumeOff } from 'react-icons/bs';
 import { RiVolumeDownLine } from 'react-icons/ri';
 import { FaRandom } from 'react-icons/fa';
 
-const Player = () => {
+const AudioPlayer = () => {
     return (
         <div className='mt-6 px-5 w-full border-t'>
             <div className='text-3xl grid grid-cols-4 pt-4'>
@@ -44,4 +44,4 @@ const Player = () => {
     );
 };
 
-export default Player;
+export default AudioPlayer;

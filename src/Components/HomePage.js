@@ -1,6 +1,5 @@
 import React from 'react';
 import './HomePage.css'
-import Player from './Player';
 import Popular from './Popular';
 import LeftSidebar from './LeftSidebar';
 import RightSidebar from './RightSidebar';

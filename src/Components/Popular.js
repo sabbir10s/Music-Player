@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { GoVerified } from 'react-icons/go';
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import { BiSearchAlt2 } from 'react-icons/bi';
 import person from '../img/person.png'
-import Player from './Player';
+import AudioPlayer from './AudioPlayer';
 
 const Popular = () => {
     const [songList, setSongList] = useState([])
@@ -16,7 +17,10 @@ const Popular = () => {
         <div>
             <div className='px-5 flex justify-between items-center gap-14'>
                 <div className='flex items-center gap-10'><span><AiOutlineLeft /></span> <span><AiOutlineRight className='text-base-300/70' /></span></div>
-                <input className='border rounded-full py-1 px-3 w-full bg-base-200/50' type="text" name="" id="" />
+                <div className='py-1 px-3 w-full rounded-full bg-base-200/50 relative flex items-center'>
+                    <BiSearchAlt2 className='text-xl z-20 mx-5' />
+                    <input className='bg-base-200/0 w-full cursor-auto focus:outline-none py-1 px-2' defaultValue="Justin Biebar" type="text" name="" id="" autoFocus="on" />
+                </div>
             </div>
             <div className='px-5 mt-[50px] '>
                 <div className='bgImg rounded-xl grid grid-cols-2'>
@@ -62,7 +66,7 @@ const Popular = () => {
                     </table>
                 </div>
             </div>
-            <Player />
+            <AudioPlayer />
         </div>
     );
 };
